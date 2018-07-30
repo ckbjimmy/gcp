@@ -54,7 +54,7 @@ http://grantmcdermott.com/2017/05/30/rstudio-server-compute-engine/
 First, please ask MIT LCP to grant you the role of `physionet-owners`. 
 This owner status is necessary for you to grant all participants (the event Google Group gmail) the permission to access dataset under `physionet-data` and create new datasets under their own spaces.
 
-![create_new_dataset](create_new_dataset.png)
+![create_new_dataset](img/create_new_dataset.png)
 
 Please go to [Google Cloud Platform / physionet-data / storage](https://console.cloud.google.com/storage/browser?project=physionet-data). 
 For the datasets you want to provide in the event, go to "Edit bucket permissions" and make sure that:
@@ -67,8 +67,8 @@ For the datasets you want to provide in the event, go to "Edit bucket permission
 
 To enable participant dataset access, go to [BigQuery](https://bigquery.cloud.google.com/), add the group gmail to the Share dataset. Remember to select "Group by e-mail", add the gmail as "Can view".
 
-![share1](share1.png)
-![share2](share2.png)
+![share1](img/share1.png)
+![share2](img/share2.png)
 
 Before course or datathon, ONLY provide the participants the access to `mimic_demo`.
 On the first day of the event, open the access to `eicu` and `mimiciii_clinical`.
